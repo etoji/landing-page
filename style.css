@@ -6,6 +6,12 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    color: #F9F8F8;;
+}
+
+a {
+    text-decoration: none;
+    color: #F9F8F8;
 }
 
 .header {
@@ -32,4 +38,24 @@ body {
 
 .navigation > li {
     padding-left: 36px;
+}
+
+.hero {
+    background-color: #272838;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    flex: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.hero-image {
+    width: 520px;
+    height: auto;
 }
