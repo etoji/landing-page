@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #272838;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 256px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.navigation > li {
+    padding-left: 36px;
+}
