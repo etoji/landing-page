@@ -89,3 +89,30 @@ a {
     font-weight: bold;
     font-size: 16px;
 }
+
+.info-header {
+    color: #272838;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-block {
+    display: flex;
+}
+
+.info-block > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration {
+    border: 2px solid #F3DE8A;
+    border-radius: 18px;
+    width: 180px;
+    height: 180px;
+}
