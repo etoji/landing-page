@@ -75,9 +75,12 @@ a {
     color: #F9F8F8;
 }
 
-.hero-image {
+.hero-img-wrapper {
     flex: 1;
-    width: 360px;
+}
+
+.hero-img-wrapper img {
+    width: 100%;
     height: auto;
     border-radius: 12px;
 }
