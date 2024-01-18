@@ -23,6 +23,8 @@ a {
     color: #F9F8F8;
 }
 
+/* Header section */
+
 .header {
     background-color: #272838;
     display: flex;
@@ -48,6 +50,8 @@ a {
 .navigation > li {
     padding-left: 36px;
 }
+
+/* Hero section */
 
 .hero {
     background-color: #272838;
@@ -93,6 +97,8 @@ a {
     font-weight: bold;
     font-size: 16px;
 }
+
+/* Information section */
 
 .info-header {
     margin: 48px;
