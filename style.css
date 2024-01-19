@@ -132,3 +132,26 @@ a {
     width: 160px;
     height: 160px;
 }
+
+.quote-block {
+    background-color: #F9F8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width: 800px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+}
