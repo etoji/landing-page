@@ -117,7 +117,7 @@ a {
     display: flex;
     width: 800px;
     gap: 12px;
-    margin-bottom: 72px;
+    margin-bottom: 112px;
 }
 
 .info-block > div {
@@ -145,7 +145,7 @@ a {
 
 .quote-wrapper {
     width: 800px;
-    margin: 72px 0;
+    margin: 112px 0;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -167,7 +167,7 @@ a {
 .cta-block {
     display: flex;
     justify-content: center;
-    margin: 82px 0;
+    margin: 112px 0;
 }
 
 .cta-wrapper {
