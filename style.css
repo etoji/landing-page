@@ -6,6 +6,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    color: #272838;
 }
 
 h1 {
@@ -115,7 +116,7 @@ a {
     display: flex;
     width: 800px;
     gap: 12px;
-    margin-bottom: 32px;
+    margin-bottom: 72px;
 }
 
 .info-block > div {
@@ -133,6 +134,8 @@ a {
     height: 160px;
 }
 
+/* Quote section */
+
 .quote-block {
     background-color: #F9F8F8;
     display: flex;
@@ -141,7 +144,7 @@ a {
 
 .quote-wrapper {
     width: 800px;
-    padding: 16px;
+    margin: 72px 0;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -154,4 +157,6 @@ a {
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 21px;
 }
