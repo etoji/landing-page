@@ -90,7 +90,8 @@ a {
     border-radius: 12px;
 }
 
-.hero-button {
+.hero-button,
+.cta-button {
     background-color: #F3DE8A;
     border: none;
     padding: 12px 32px;
@@ -157,6 +158,33 @@ a {
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+/* Call to action section */
+
+.cta-block {
+    display: flex;
+    justify-content: center;
+    margin: 82px 0;
+}
+
+.cta-wrapper {
+    box-sizing: border-box;
+    background-color: #7E7F9A;
+    width: 1080px;
+    border-radius: 12px;
+    padding: 52px 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color: #F9F8F8;
+}
+
+.cta-text-header {
     font-weight: bold;
     font-size: 21px;
 }
